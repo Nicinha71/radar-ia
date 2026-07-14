@@ -1,0 +1,1 @@
+type Props={label:string;value:string;help?:string};export function MetricCard({label,value,help}:Props){return <article className="metric-card"><span>{label}</span><strong>{value}</strong>{help&&<small>{help}</small>}</article>}
